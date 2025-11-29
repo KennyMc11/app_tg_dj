@@ -9,7 +9,7 @@ games = {}
 
 def game_page(request):
     """Главная страница игры"""
-    return render(request, 'app/game.html')
+    return render(request, 'game.html')
 
 @csrf_exempt
 def start_game(request):
